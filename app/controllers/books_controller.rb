@@ -3,7 +3,6 @@ class BooksController < ApplicationController
 
     def index
         @books = Book.all
-        #command by kemal
     end
 
     def show
