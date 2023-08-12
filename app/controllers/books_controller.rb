@@ -3,6 +3,7 @@ class BooksController < ApplicationController
 
     def index
         @books = Book.all
+        #saya dah mandi
     end
 
     def show
